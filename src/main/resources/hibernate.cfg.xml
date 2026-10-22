@@ -1,17 +1,46 @@
 <!DOCTYPE hibernate-configuration PUBLIC
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+    
+    
+    <hibernate-configuration>
+    <session-factory>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.connection.driver-class-name">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <mapping class="com.parking.entity.ParkingSlot"/>
+    </session-factory>
+    </hibernate-configuration>
+=======
+>>>>>>> b6c5a1a7b389957913d2a27146cd1c0ef919d646
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
         
         <hibernate-configuration>
         <session-factory>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate</property>
+<<<<<<< HEAD
         
+=======
+>>>>>>> b6c5a1a7b389957913d2a27146cd1c0ef919d646
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
         <property name="hibernate.connection.driver-class-name">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
+<<<<<<< HEAD
         <mapping class="com.aadiandjava.entity.Student"/>
         </session-factory>
         
         
         </hibernate-configuration>
+=======
+        <mapping class="com.bloodbank.entity.BloodDonor"/>
+        </session-factory>
+        </hibernate-configuration>
+>>>>>>> 474eb7b7e1b68c07ec15f70a798869bbf95e01d8
+>>>>>>> b6c5a1a7b389957913d2a27146cd1c0ef919d646
