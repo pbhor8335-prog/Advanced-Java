@@ -1,10 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
   <groupId>AadiAndJava</groupId>
   <artifactId>HibernateCRUDSmartParkingManagementSystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
+=======
+  <groupId>Aadiandjava</groupId>
+  <artifactId>HibernateCRUD_4BloodBankManagementSystem</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  
+>>>>>>> 474eb7b7e1b68c07ec15f70a798869bbf95e01d8
   <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
@@ -12,12 +21,20 @@
 </dependency>
 
 <dependency>
+<<<<<<< HEAD
     <groupId>com.mysql</groupId>
     <artifactId>mysql-connector-j</artifactId>
+=======
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+>>>>>>> 474eb7b7e1b68c07ec15f70a798869bbf95e01d8
     <version>8.0.33</version>
 </dependency>
   
   
+<<<<<<< HEAD
   
+=======
+>>>>>>> 474eb7b7e1b68c07ec15f70a798869bbf95e01d8
   </dependencies>
 </project>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>HibernateCRUD3_SmartParkingManagementSystem</name>
+=======
+	<name>HibernateCRUD_4BloodBankManagementSystem</name>
+>>>>>>> 474eb7b7e1b68c07ec15f70a798869bbf95e01d8
 	<comment></comment>
 	<projects>
 	</projects>
